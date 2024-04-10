@@ -1,8 +1,13 @@
-# sf-hacks24
 
-![Logo](media/HH-logo.png)
+<p align=center>
+  <a href="https://github.com/Half-Hash/Half-Hashed">
+    <img alt="Half Hashed" src="https://raw.githubusercontent.com/Half-Hash/Half-Hashed/main/client/client/src/media/HH-logo-wide.png">
+  </a>
+</p>
 
 This is a simple implementation of a blockchain as a database using Python and JavaScript. It includes classes for the blockchain, blocks, and transactions. The implementation also includes proof-of-work mining and transaction validation.
+
+This is a continuation of our project submitted to [SFHacks 2024](https://devpost.com/software/half-hashed).
 
 ## Features
 
@@ -29,20 +34,18 @@ cd blockchain
 
 ## Usage
 
-1. Run the main script to start the blockchain server:
+1. Run the main script to start the blockchain server which listens for connections on the specified port:
 
 ```
 python demo.py
 ```
 
-2. The server will start listening for connections on the specified port.
-
 3. Start local webserver that interfaces with local copy of blockchain
 
-'''
+```
 cd ../client/client
 npm start
-'''
+```
 
 ## API Endpoints
 
@@ -54,6 +57,6 @@ npm start
 - `/replace_chain`: Replace the current chain with the longest valid chain in the network.
 
 ## Authors
-- [Ronin Morata](https://github.com/roninm-git)
+- [Ronin Morata](https://github.com/rpmorata)
 - [Anastasia Koshelenko](https://github.com/Koshelenkoa)
 - [Jason Tang](https://github.com/basonbang)
